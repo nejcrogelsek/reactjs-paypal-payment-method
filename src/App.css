@@ -8,6 +8,13 @@
 }
 .wrapper {
   background-color: lightgray;
-  padding: 100px;
+  padding: 10px;
   border-radius: 10px;
+  min-width: 300px;
+}
+@media (min-width: 768px) {
+  .wrapper {
+    min-width: 500px;
+    padding: 100px;
+  }
 }

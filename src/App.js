@@ -18,6 +18,7 @@ function App() {
   };
 
   const onApprove = (data, actions) => {
+    console.log(data);
     return actions.order.capture();
   };
   return (
